@@ -15,25 +15,50 @@
 <body>
     <div class="container">
         <h1>World Clock</h1>
-        <select>
-            <option>Select a city</option>
-            <option>New York</option>
-            <option>Madrid</option>
-            <option>Sydney</option>
+        <select id="city">
+            <option value="">Select a city</option>
+            <option value="America/Los_Angeles">Los Angeles</option>
+            <option value="Africa/Johannesburg">Johannesburg</option>
+            <option value="Europe/Madrid">Madrid</option>
+            <option value="Asia/Seoul">Seoul</option>
+            <option value="Australia/Sydney">Sydney</option>
         </select>
-        <div class="city" id="chicago">
-            <div>
-                <h2>Chicago, USA</h2>
-                <div class="date"></div>
+        <div id="cityDetails">
+            <div class="city" id="buenos-aires">
+                <div>
+                    <h2>Buenos Aires, ARG</h2>
+                    <div class="date"></div>
+                </div>
+                <div class="time"></div>
             </div>
-            <div class="time"></div>
-        </div>
-        <div class="city" id="paris">
-            <div>
-                <h2>Paris, FR</h2>
-                <div class="date"></div>
+            <div class="city" id="new-york"> 
+                <div>  
+                    <h2>New York, USA</h2>
+                    <div class="date"></div>
+                </div>
+                <div class="time"></div>  
             </div>
-            <div class="time"></div>
+            <div class="city" id="reykjavik">
+                <div>
+                    <h2>Reykjavik, ISL</h2>
+                    <div class="date"></div>
+                </div>
+                <div class="time"></div>
+            </div>
+            <div class="city" id="paris">
+                <div>
+                    <h2>Paris, FRA</h2>
+                    <div class="date"></div>
+                </div>
+                <div class="time"></div>
+            </div>
+            <div class="city" id="tokyo">
+                <div>
+                    <h2>Tokyo, JPN</h2>
+                    <div class="date"></div>
+                </div>
+                <div class="time"></div>
+            </div>
         </div>
     </div>
     <footer>This project is coded by <strong><a href="https://shannon-cassady-portfolio.netlify.app/" target="_blank">Shannon Cassady</a></strong> and is <a href="https://github.com/scassady8/world-clock" target="_blank">open sourced on GitHub</a> .</footer>
