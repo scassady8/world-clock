@@ -17,6 +17,10 @@ select {
     padding: 5px;
     width: 100%;
 }
+a{
+ display: block;
+ margin: 10px;
+}
 footer {
     text-align: center;
     font-size: 12px;
