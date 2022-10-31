@@ -9,16 +9,6 @@ let buenosAiresDate = moment().tz("America/Buenos_Aires");
 buenosAiresDateElement.innerHTML = buenosAiresDate.format("dddd, MMMM Do");
 buenosAiresTimeElement.innerHTML = buenosAiresDate.format("h:mm:ss [<small>]A[</small>]");
 }
-//Reykjavik
-let reykjavikElement = document.querySelector("#reykjavik");
-if (reykjavikElement) {
-let reykjavikDateElement = reykjavikElement.querySelector(".date");
-let reykjavikTimeElement = reykjavikElement.querySelector(".time");
-
-let reykjavikDate = moment().tz("Atlantic/Reykjavik");
-reykjavikDateElement.innerHTML = reykjavikDate.format("dddd, MMMM Do");
-reykjavikTimeElement.innerHTML = reykjavikDate.format("h:mm:ss [<small>]A[</small>]");
-}
 //New York
 let newYorkElement = document.querySelector("#new-york");
 if (newYorkElement) {
