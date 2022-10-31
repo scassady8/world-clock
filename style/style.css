@@ -53,3 +53,17 @@ footer {
     display: block;
     margin: 10px;
    }
+@media (max-width:600px) {
+    h2 {
+        font-size: 18px;
+    }
+    .date {
+        font-size: 14px;
+    }
+    .time {
+        font-size: 26px;
+    }
+    .time small {
+        font-size: 14px; 
+    }
+}
